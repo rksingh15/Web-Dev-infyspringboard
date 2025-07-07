@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <h4>Register for Online Trainings</h4>
+
+            <!-- input fields types text/password/email/number  -->
+            Username:<input type="text"/> <br/>
+            Password:<input type="password"/> <br/>
+            Contact:<input type="number"/> <br/><br/>
+
+            <!-- input fields type checkbox -->
+            Select technologies needed: 
+            <input type="checkbox" value="HTML" checked /> HTML
+            <input type="checkbox" value="CSS"/> CSS 
+            <input type="checkbox" value="JS"/> JS<br/><br/>
+
+            <!-- input field type radio button -->
+            Select training mode: 
+            <input type="radio" name="training" value="classroom" checked /> Classroom
+            <input type="radio" name="training" value="VCR" /> VCR <br/>
+
+            <!-- input field type hidden -->
+            <input type="hidden" name="language" value="english" /> <br/><br/>
+            
+            Enter the URL of the certified training if any: <input type="url" /> <br/> <br/>
+
+
+            <!-- input field type button -->
+            <input type="button" value="Click here to see the available trainings"/> &nbsp;&nbsp;
+            <!-- input field type submit -->
+            <input type="color"/> &nbsp;&nbsp;
+            <input type="datetime-local"/> &nbsp;&nbsp;
+           date  <input type="datetime"/> &nbsp;&nbsp;
+          week  <input type="week"/> &nbsp;&nbsp; <br>
+
+          Country: <input list="countries">
+<datalist id="countries">
+    <option value="India">
+        <option value="France">
+            <option value="Singapore">
+                <option value="Thailand">
+                    <option value="United Arab Emirates">
+                        <option value="United States of America">
+</datalist>
+
+ <form>
+            <h4>Selecting Input Values from Dropdown</h4>
+            <!-- When the input is collected over select dropdown,
+             the user needs to select an option from the dropdown provided -->
+            Select Technology for appearing the Certification:
+            <select>
+                <option label="HTML">HTML hdhsdbfsflsb </option>
+                <option value="CSS">CSS </option>
+                <option value="JS">JS </option>
+                <option value="WD" selected>Web Developer </option>                
+            </select>  <br/> <br/>
+            
+            <!-- When the input is collected through datalist, user can choose the vlue from the option list,
+                 or they can provide their own input through the input field -->
+            Choose Technology for appearing the Certification :<input list="Technologies" />
+            <datalist id="Technologies">
+                <option label="HTML">HTML dsdjsjhsj s </option>
+                <option value="CSS">CSS </option>
+                <option value="JS">JS </option>
+                <option value="WD" selected>Web Developer </option>         
+            </datalist> 
+            <input type="submit">
+            Disk usage: <meter min="0" max="100" value="50"></meter>
+<br/>
+
+<input  type="password" name="name" placeholder="Enter your name" required> 
+<br>Task completed: <progress min="0" max="100" value="50">50 of 100</progress>
+
+
+
+
+
+<br/>
+            <!-- input field type range -->
+            Select the range of your disk usage: <input type="range" min="0" max="100" value="50" step="1"/> <br/><br/>
+
+            <!-- input field type color -->
+            Select the color you like: <input type="color" value="#ff0000"/> <br/><br/>
+
+            <!-- input field type date -->
+            Select the date: <input type="date"/> <br/><br/>
+
+            <!-- input field type time -->
+            Select the time: <input type="time"/> <br/><br/>
+
+            <!-- input field type week -->
+            Select the week: <input type="week"/> <br/><br/>
+        </form>
+            
+
+        </form>
+
+<form oninput="J.value = parseInt(a.value || 0) + parseInt(b.value || 0)">
+  <input type="number" id="b" name="b" value="7" /> +
+  <input type="number" id="a" name="a" value="5" /> =
+  <output id="J" name="J" for="a b"></output>
+</form>
+
+<br>
+<br>
+<br>
+        
+    </body>
+</html>

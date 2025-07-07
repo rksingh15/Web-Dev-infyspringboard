@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form oninput="O1.value = parseInt(R1.value)">
+            Rate your experience:<input type="range" id="R1" min="0" max="100" step="10" />
+            <output for="R1" id="O1"></output>
+        </form>
+
+<form oninput="J.value = parseInt(a.value || 0) + parseInt(b.value || 0)">
+  <input type="number" id="b" name="b" value="7" /> +
+  <input type="number" id="a" name="a" value="5" /> =
+  <output id="J" name="J" for="a b"></output>
+</form>
+
+    </body>
+</html>
