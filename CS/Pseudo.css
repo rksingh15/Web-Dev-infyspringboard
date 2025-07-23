@@ -1,0 +1,9 @@
+input[type="text"]:enabled {
+  background-color: lightblue;
+  color: #FFFFFF;
+}
+/* yadi comment karta hu to upper wala apply hota hai  */
+/* input[type="text"]:required {
+  background-color: red;
+  color: #FFFFFF;
+} */
